@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>New Blog Post</title>
+			<link rel="stylesheet" href="main.css"/>
+			<script src="main.js"></script> 
+	</head>
+		<body>
+			<h1 class="heading">Add New Blog Entry</h1>
+			<form>
+				<div class="info-container">
+					<div class="input-container">
+						<label>Title:</label>
+						<input id="blogTitle" type="text"/>
+					</div>
+
+					<div class="input-container">
+						<label>Date:</label>
+						<input type="text" value="3/4/17"/>
+					</div>
+
+					<div class="input-container">
+						<label>Description:</label>
+						<input type="text"/>
+					</div>
+
+					<div class="input-container">
+						<label>Photo:</label>
+						<button class="button secondary-button">Choose File</button>
+					</div>
+				</div>
+
+				<div class="submit-container">
+					<div class="input-container">
+						<a href="index.html" class="cancel-button">cancel</a>
+						<button class="main-button button" onclick="submitNewBlogPost()">Submit</button> 	
+					</div>
+				</div>
+
+			</form>
+
+		</body>
+
+</html>
